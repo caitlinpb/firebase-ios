@@ -14,6 +14,13 @@
 		48C156C0223B2F9700AC6B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C156BE223B2F9700AC6B44 /* LaunchScreen.storyboard */; };
 		48C156CB223B2F9700AC6B44 /* firebase_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C156CA223B2F9700AC6B44 /* firebase_demoTests.swift */; };
 		48C156D6223B2F9700AC6B44 /* firebase_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C156D5223B2F9700AC6B44 /* firebase_demoUITests.swift */; };
+		48C156E4223B2FDF00AC6B44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C156E3223B2FDF00AC6B44 /* LoginViewController.swift */; };
+		48C156E6223B315000AC6B44 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C156E5223B315000AC6B44 /* SignUpViewController.swift */; };
+		48C156E8223B318800AC6B44 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C156E7223B318800AC6B44 /* HomeViewController.swift */; };
+		48C156EA223B327300AC6B44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48C156E9223B327300AC6B44 /* GoogleService-Info.plist */; };
+		740F2F64CEB42D5B17A23E32 /* Pods_firebase_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2648C47433B68579FA556D /* Pods_firebase_demoTests.framework */; };
+		ABB2A69C36B7C5C5A678E616 /* Pods_firebase_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C983F136E7DA27EB3C1BEDE8 /* Pods_firebase_demoUITests.framework */; };
+		AE9E076DB5E6FFCD719BD29B /* Pods_firebase_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F855AEFC77174F7F51077FB4 /* Pods_firebase_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2648C47433B68579FA556D /* Pods_firebase_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B57E9E3E8866293A7E460E /* Pods-firebase-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demoTests.debug.xcconfig"; path = "Target Support Files/Pods-firebase-demoTests/Pods-firebase-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45413FCDAA75FE536274DFDA /* Pods-firebase-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demo.debug.xcconfig"; path = "Target Support Files/Pods-firebase-demo/Pods-firebase-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		48C156B2223B2F9700AC6B44 /* firebase-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C156B5223B2F9700AC6B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C156B7223B2F9700AC6B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		48C156D1223B2F9700AC6B44 /* firebase-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firebase-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C156D5223B2F9700AC6B44 /* firebase_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebase_demoUITests.swift; sourceTree = "<group>"; };
 		48C156D7223B2F9700AC6B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C156E3223B2FDF00AC6B44 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		48C156E5223B315000AC6B44 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		48C156E7223B318800AC6B44 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		48C156E9223B327300AC6B44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C6F9A43524221B5D0C80674 /* Pods-firebase-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demoUITests.release.xcconfig"; path = "Target Support Files/Pods-firebase-demoUITests/Pods-firebase-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F7FE6D05AAF113D9CB1485C /* Pods-firebase-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demoTests.release.xcconfig"; path = "Target Support Files/Pods-firebase-demoTests/Pods-firebase-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A066A544601F522E21367F44 /* Pods-firebase-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demoUITests.debug.xcconfig"; path = "Target Support Files/Pods-firebase-demoUITests/Pods-firebase-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C983F136E7DA27EB3C1BEDE8 /* Pods_firebase_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB039744A137C26F1693E078 /* Pods-firebase-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demo.release.xcconfig"; path = "Target Support Files/Pods-firebase-demo/Pods-firebase-demo.release.xcconfig"; sourceTree = "<group>"; };
+		F855AEFC77174F7F51077FB4 /* Pods_firebase_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9E076DB5E6FFCD719BD29B /* Pods_firebase_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740F2F64CEB42D5B17A23E32 /* Pods_firebase_demoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB2A69C36B7C5C5A678E616 /* Pods_firebase_demoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				48C156C9223B2F9700AC6B44 /* firebase-demoTests */,
 				48C156D4223B2F9700AC6B44 /* firebase-demoUITests */,
 				48C156B3223B2F9700AC6B44 /* Products */,
+				BC4D19460B6DDBF4E0C77B9A /* Pods */,
+				537F4D955C7AFA663159E01B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,10 @@
 				48C156BC223B2F9700AC6B44 /* Assets.xcassets */,
 				48C156BE223B2F9700AC6B44 /* LaunchScreen.storyboard */,
 				48C156C1223B2F9700AC6B44 /* Info.plist */,
+				48C156E9223B327300AC6B44 /* GoogleService-Info.plist */,
+				48C156E3223B2FDF00AC6B44 /* LoginViewController.swift */,
+				48C156E5223B315000AC6B44 /* SignUpViewController.swift */,
+				48C156E7223B318800AC6B44 /* HomeViewController.swift */,
 			);
 			path = "firebase-demo";
 			sourceTree = "<group>";
@@ -125,6 +154,30 @@
 			path = "firebase-demoUITests";
 			sourceTree = "<group>";
 		};
+		537F4D955C7AFA663159E01B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F855AEFC77174F7F51077FB4 /* Pods_firebase_demo.framework */,
+				1D2648C47433B68579FA556D /* Pods_firebase_demoTests.framework */,
+				C983F136E7DA27EB3C1BEDE8 /* Pods_firebase_demoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC4D19460B6DDBF4E0C77B9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45413FCDAA75FE536274DFDA /* Pods-firebase-demo.debug.xcconfig */,
+				EB039744A137C26F1693E078 /* Pods-firebase-demo.release.xcconfig */,
+				40B57E9E3E8866293A7E460E /* Pods-firebase-demoTests.debug.xcconfig */,
+				5F7FE6D05AAF113D9CB1485C /* Pods-firebase-demoTests.release.xcconfig */,
+				A066A544601F522E21367F44 /* Pods-firebase-demoUITests.debug.xcconfig */,
+				4C6F9A43524221B5D0C80674 /* Pods-firebase-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C156DA223B2F9700AC6B44 /* Build configuration list for PBXNativeTarget "firebase-demo" */;
 			buildPhases = (
+				3ABB2FA8A6E7C46F6435B5A3 /* [CP] Check Pods Manifest.lock */,
 				48C156AE223B2F9700AC6B44 /* Sources */,
 				48C156AF223B2F9700AC6B44 /* Frameworks */,
 				48C156B0223B2F9700AC6B44 /* Resources */,
+				F125C90676F282BDB4911C20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C156DD223B2F9700AC6B44 /* Build configuration list for PBXNativeTarget "firebase-demoTests" */;
 			buildPhases = (
+				B0144ACAFF01E6BB462CB460 /* [CP] Check Pods Manifest.lock */,
 				48C156C2223B2F9700AC6B44 /* Sources */,
 				48C156C3223B2F9700AC6B44 /* Frameworks */,
 				48C156C4223B2F9700AC6B44 /* Resources */,
@@ -167,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C156E0223B2F9700AC6B44 /* Build configuration list for PBXNativeTarget "firebase-demoUITests" */;
 			buildPhases = (
+				CFFF80C9DB1454BDEB4FAB3B /* [CP] Check Pods Manifest.lock */,
 				48C156CD223B2F9700AC6B44 /* Sources */,
 				48C156CE223B2F9700AC6B44 /* Frameworks */,
 				48C156CF223B2F9700AC6B44 /* Resources */,
@@ -233,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C156C0223B2F9700AC6B44 /* LaunchScreen.storyboard in Resources */,
+				48C156EA223B327300AC6B44 /* GoogleService-Info.plist in Resources */,
 				48C156BD223B2F9700AC6B44 /* Assets.xcassets in Resources */,
 				48C156BB223B2F9700AC6B44 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +312,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ABB2FA8A6E7C46F6435B5A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0144ACAFF01E6BB462CB460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFFF80C9DB1454BDEB4FAB3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase-demoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F125C90676F282BDB4911C20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase-demo/Pods-firebase-demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase-demo/Pods-firebase-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48C156AE223B2F9700AC6B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C156E8223B318800AC6B44 /* HomeViewController.swift in Sources */,
+				48C156E4223B2FDF00AC6B44 /* LoginViewController.swift in Sources */,
 				48C156B8223B2F9700AC6B44 /* ViewController.swift in Sources */,
+				48C156E6223B315000AC6B44 /* SignUpViewController.swift in Sources */,
 				48C156B6223B2F9700AC6B44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +580,7 @@
 		};
 		48C156DB223B2F9700AC6B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45413FCDAA75FE536274DFDA /* Pods-firebase-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +595,7 @@
 		};
 		48C156DC223B2F9700AC6B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB039744A137C26F1693E078 /* Pods-firebase-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +610,7 @@
 		};
 		48C156DE223B2F9700AC6B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B57E9E3E8866293A7E460E /* Pods-firebase-demoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +627,7 @@
 		};
 		48C156DF223B2F9700AC6B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7FE6D05AAF113D9CB1485C /* Pods-firebase-demoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +644,7 @@
 		};
 		48C156E1223B2F9700AC6B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A066A544601F522E21367F44 /* Pods-firebase-demoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +660,7 @@
 		};
 		48C156E2223B2F9700AC6B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6F9A43524221B5D0C80674 /* Pods-firebase-demoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
