@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  NewChallengeViewController.swift
 //  firebase-demo
 //
 //  Created by Caitlin Palmer-Bright on 15/3/19.
@@ -7,10 +7,8 @@
 //
 
 import UIKit
-import Firebase
-import FirebaseAuth
 
-class HomeViewController: UIViewController {
+class NewChallengeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,10 +21,7 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func createNewChallenge(_ sender: Any) {
-        performSegue(withIdentifier: "NewChallenge", sender: self)
-    }
-    
+
     /*
     // MARK: - Navigation
 
@@ -36,17 +31,5 @@ class HomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func logoutUser(_ sender: Any) {
-        do {
-            try Auth.auth().signOut()
-        }
-        catch let signOutError as NSError {
-            print ("Error signing out: %@", signOutError)
-        }
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let initial = storyboard.instantiateInitialViewController()
-        UIApplication.shared.keyWindow?.rootViewController = initial
-    }
-    
+
 }

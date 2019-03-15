@@ -18,6 +18,7 @@
 		48C156E6223B315000AC6B44 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C156E5223B315000AC6B44 /* SignUpViewController.swift */; };
 		48C156E8223B318800AC6B44 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C156E7223B318800AC6B44 /* HomeViewController.swift */; };
 		48C156EA223B327300AC6B44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48C156E9223B327300AC6B44 /* GoogleService-Info.plist */; };
+		48F65CD6223B676700A5A197 /* NewChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F65CD5223B676700A5A197 /* NewChallengeViewController.swift */; };
 		740F2F64CEB42D5B17A23E32 /* Pods_firebase_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2648C47433B68579FA556D /* Pods_firebase_demoTests.framework */; };
 		ABB2A69C36B7C5C5A678E616 /* Pods_firebase_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C983F136E7DA27EB3C1BEDE8 /* Pods_firebase_demoUITests.framework */; };
 		AE9E076DB5E6FFCD719BD29B /* Pods_firebase_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F855AEFC77174F7F51077FB4 /* Pods_firebase_demo.framework */; };
@@ -61,6 +62,7 @@
 		48C156E5223B315000AC6B44 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		48C156E7223B318800AC6B44 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48C156E9223B327300AC6B44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48F65CD5223B676700A5A197 /* NewChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChallengeViewController.swift; sourceTree = "<group>"; };
 		4C6F9A43524221B5D0C80674 /* Pods-firebase-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demoUITests.release.xcconfig"; path = "Target Support Files/Pods-firebase-demoUITests/Pods-firebase-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5F7FE6D05AAF113D9CB1485C /* Pods-firebase-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demoTests.release.xcconfig"; path = "Target Support Files/Pods-firebase-demoTests/Pods-firebase-demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A066A544601F522E21367F44 /* Pods-firebase-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-demoUITests.debug.xcconfig"; path = "Target Support Files/Pods-firebase-demoUITests/Pods-firebase-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				48C156E3223B2FDF00AC6B44 /* LoginViewController.swift */,
 				48C156E5223B315000AC6B44 /* SignUpViewController.swift */,
 				48C156E7223B318800AC6B44 /* HomeViewController.swift */,
+				48F65CD5223B676700A5A197 /* NewChallengeViewController.swift */,
 			);
 			path = "firebase-demo";
 			sourceTree = "<group>";
@@ -174,7 +177,6 @@
 				A066A544601F522E21367F44 /* Pods-firebase-demoUITests.debug.xcconfig */,
 				4C6F9A43524221B5D0C80674 /* Pods-firebase-demoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -318,15 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-firebase-demo-checkManifestLockResult.txt",
 			);
@@ -340,15 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-firebase-demoTests-checkManifestLockResult.txt",
 			);
@@ -362,15 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-firebase-demoUITests-checkManifestLockResult.txt",
 			);
@@ -384,20 +374,30 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-firebase-demo/Pods-firebase-demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F65CD6223B676700A5A197 /* NewChallengeViewController.swift in Sources */,
 				48C156E8223B318800AC6B44 /* HomeViewController.swift in Sources */,
 				48C156E4223B2FDF00AC6B44 /* LoginViewController.swift in Sources */,
 				48C156B8223B2F9700AC6B44 /* ViewController.swift in Sources */,
